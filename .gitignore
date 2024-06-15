@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore environment variables file
+.env
+
+# Ignore pipenv or poetry lock file
+Pipfile.lock
+poetry.lock
+
+# Ignore Django migration files
+*/migrations/
+**/migrations/
+
+# Ignore development and deployment specific files
+*.DS_Store
+*.bak
+*.swp
+
+# Ignore any compiled JavaScript or TypeScript
+*.js
+*.jsx
+*.ts
+*.tsx
+
+# Ignore compiled CSS
+*.css
+
+# Ignore any minified files
+*.min.*
+
+# Ignore cache and temporary files
+.cache/
+*.tmp
+
+# Ignore any backup files
+*.bak
+*.backup
